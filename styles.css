@@ -5,15 +5,18 @@
 
 }
 header{
-    background-color: rgba(0, 0, 0, 0.85);
-    height: 220px;
+    background-color: rgb(43, 43, 43);
     width: 100%;
-    left: 0px;
+    height: fit-content;
+    left:0;
     top: 0px;
     position: fixed;
     text-align: center;
-    border-bottom-right-radius: 30%;
-    border-bottom-left-radius: 30%;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 header .my-name{
     position: relative;
@@ -45,13 +48,13 @@ main{
 }
 .branch{
     display: inline-block;
-    text-align: center;
+    align-items: center;
     position: relative;
-    margin-left: 50px;
     padding: 7px;
     top: 10px;
     background-color:rgba(0, 0, 0, 0.41);
     border-radius: 15px;
+    margin-bottom: 20px;
     
 }
 button.branch {
@@ -59,6 +62,7 @@ button.branch {
     text-decoration:none;
     cursor: pointer;
     border: none;
+    margin-bottom: 20px;
 }
 button.branch:hover{
     text-decoration: none;
@@ -69,3 +73,36 @@ button.branch:active{
     color:#ffffff80
     
 }
+main{
+    position: relative;
+    margin-top: 10px;
+    width: 1000px;
+}
+ 
+  button {
+      box-shadow: 0px 0px 0px rgba(0,0,0,0.4);
+      transition: 500ms;
+  }
+  
+  button:after {
+      position: absolute;
+      transform: translateX(-55px) translateY(-40px);
+      box-shadow: 0px 0px 50px transparent;
+      transition: 500ms;
+  }
+  
+  button:hover {
+      transform: translateY(-5px);
+  }
+  
+  @keyframes spin{
+      25%{transform: translateX(-25px) translateY(-35px);
+              width: 15px;
+              height: 15px;}
+      50% {transform: translateX(-55px) translateY(-30px);
+              width: 5px;
+              height: 5px;}
+      75% {transform: translateX(-85px) translateY(-35px);
+              width: 15px;
+              height: 15px;}
+  } 
