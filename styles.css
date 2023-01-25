@@ -2,6 +2,7 @@
     font-family: "Montserrat";
     box-sizing: border-box;
     border: red soli;
+
 }
 header{
     background-color: rgba(0, 0, 0, 0.85);
@@ -11,6 +12,8 @@ header{
     top: 0px;
     position: fixed;
     text-align: center;
+    border-bottom-right-radius: 30%;
+    border-bottom-left-radius: 30%;
 }
 header .my-name{
     position: relative;
@@ -56,24 +59,13 @@ button.branch {
     text-decoration:none;
     cursor: pointer;
     border: none;
-
-
 }
 button.branch:hover{
     text-decoration: none;
-    font-size: large;
     box-shadow: 0px -2px rgb(211, 210, 210);
 
 }
 button.branch:active{
     color:#ffffff80
     
-}
-.items-in-header{
-    align-items: center;
-
-}
-main{
-    width: 974px;
-    margin: 0 auto;
 }
