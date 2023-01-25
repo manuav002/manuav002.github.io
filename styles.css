@@ -25,6 +25,7 @@ header figure{
         border-radius: 50%;
         position: relative;
         top: 12px;
+        display: inline-block;
 }
 main{
     position: relative;
@@ -73,5 +74,6 @@ button.branch:active{
 
 }
 main{
-    width: 974px; margin: 0 auto;
+    width: 974px;
+    margin: 0 auto;
 }
