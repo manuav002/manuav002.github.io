@@ -25,7 +25,7 @@ header figure{
         border-radius: 50%;
         position: relative;
         top: 12px;
-        display: inline-block;
+        display: inline;
 }
 main{
     position: relative;
